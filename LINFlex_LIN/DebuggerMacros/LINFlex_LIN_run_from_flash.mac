@@ -1,0 +1,9 @@
+; LINFlex_LIN_run_from_flash.mac file S.M.
+
+hload ..\bin\LINFlex_LIN-flash.elf   ; load program
+gotil main      ; run until main
+clearvar        ; Clear any previous variable display
+
+
+
+

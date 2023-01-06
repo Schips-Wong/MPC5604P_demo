@@ -1,0 +1,10 @@
+; LINFlex_LIN_run_from_ram.mac file S.M.
+
+hload ..\bin\LINFlex_LIN-RAM.elf   ; load program
+gotil main      ; run until main
+clearvar        ; Clear any previous variable display
+
+
+
+
+

@@ -1,0 +1,7 @@
+; Flash-Config_run_from_flash.mac file S.M.
+
+hloadmap ..\bin\Flash-Config-flash.elf   ; load program debug symbols
+gotil main      ; run until main
+clearvar        ; Clear any previous variable display
+
+

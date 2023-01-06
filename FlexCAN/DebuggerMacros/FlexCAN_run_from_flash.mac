@@ -1,0 +1,9 @@
+; FlexCAN_run_from_flash.mac file S.M.
+
+hload ..\bin\FlexCAN-flash.elf   ; load program
+gotil main      ; run until main
+clearvar        ; Clear any previous variable display
+var RxDATA[0]
+
+
+

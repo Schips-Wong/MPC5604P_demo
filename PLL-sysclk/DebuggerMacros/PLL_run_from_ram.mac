@@ -1,0 +1,8 @@
+; PLL_run_from_ram.mac file S.M.
+
+hload ..\bin\PLL-sysclk-ram.elf   ; load program
+gotil main      ; run until main
+clearvar        ; Clear any previous variable display
+
+
+

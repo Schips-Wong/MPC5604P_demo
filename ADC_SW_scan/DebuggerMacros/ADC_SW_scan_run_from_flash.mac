@@ -1,0 +1,12 @@
+; ADC_SW_scan_run_from_flash.mac file S.M.
+
+hloadmap ..\bin\ADC_SW_scan-flash.elf   ; load program debug symbols
+gotil main        ; run until main
+clearvar          ; Clear any previous variable display
+var Result[0]     ; Conversion result for ANS0 input
+var Result[1]     ; Conversion result for ANS1 input
+var ResultInMv[0] ;Converstion result for ANS0 input in mv
+var ResultInMv[1] ;Converstion result for ANS1 input in mv
+
+
+

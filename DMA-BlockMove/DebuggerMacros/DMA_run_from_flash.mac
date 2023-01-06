@@ -1,0 +1,15 @@
+; DMA_run_from_flash.mac file S.M.
+
+hloadmap ..\bin\DMA-BlockMove-flash.elf   ; load program debug symbols
+gotil main      ; run until main
+clearvar        ; Clear any previous variable display
+var.s SourceData[0] 10
+var.s Destination 1
+
+
+
+
+
+
+
+

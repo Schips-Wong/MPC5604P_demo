@@ -1,0 +1,12 @@
+; DMA_run_from_ram.mac file S.M.
+
+hload ..\bin\DMA-BlockMove-ram.elf   ; load program
+gotil main      ; run until main
+clearvar        ; Clear any previous variable display
+var.s SourceData[0] 10
+var.s Destination 1
+
+
+
+
+
